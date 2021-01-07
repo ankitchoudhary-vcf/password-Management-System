@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>388</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Form{
+	background-color: qconicalgradient(cx:0.045, cy:0, angle:135, stop:0 rgba(30, 0, 255, 255), stop:0.375 rgba(0, 195, 255, 252), stop:0.423533 rgba(37, 0, 255, 255), stop:0.45 rgba(0, 130, 255, 255), stop:0.477581 rgba(0, 56, 255, 252), stop:0.518717 rgba(71, 171, 255, 255), stop:0.542289 rgba(71, 171, 255, 255), stop:0.547264 rgba(68, 134, 249, 255), stop:0.55 rgba(0, 74, 255, 255), stop:0.552239 rgba(21, 93, 243, 255), stop:0.57754 rgba(102, 0, 255, 255), stop:0.625 rgba(0, 185, 255, 247), stop:1 rgba(255, 255, 0, 69));
+}
+QGroupBox{
+	
+	font: 75 14pt &quot;MS Sans Serif&quot;;
+	text-decoration: underline;
+
+}
+QPushButton{
+border-radius:10px;
+border:3px solid green;
+color:#000000;
+}
+QTableWidget{
+border-radius:10px;
+border:3px solid green;
+color:#000000;
+	background-color: qconicalgradient(cx:0.000472637, cy:0, angle:227.8, stop:0 rgba(30, 0, 255, 255), stop:0.375 rgba(0, 195, 255, 252), stop:0.423533 rgba(37, 0, 255, 255), stop:0.45 rgba(0, 130, 255, 255), stop:0.477581 rgba(0, 56, 255, 252), stop:0.518717 rgba(71, 171, 255, 255), stop:0.542289 rgba(71, 171, 255, 255), stop:0.547264 rgba(68, 134, 249, 255), stop:0.55 rgba(0, 74, 255, 255), stop:0.552239 rgba(21, 93, 243, 255), stop:0.57754 rgba(102, 0, 255, 255), stop:0.625 rgba(0, 185, 255, 247), stop:1 rgba(255, 255, 0, 69));
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>551</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>DATABASE</string>
+   </property>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>381</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+    <column>
+     <property name="text">
+      <string>WEBSITE</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>USERNAME</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>PASSWORD</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>50</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ADD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>100</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>REMOVE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>150</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>UPDATE</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
