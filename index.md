@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Password-Management-System
+*** 
 
-You can use the [editor on GitHub](https://github.com/ankit1509/password-Management-System/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
+***
+This is a simple and simple and secure Password Management System made completely in Python.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![](https://user-images.githubusercontent.com/60814508/145575095-f08497d0-ce04-4d78-9d8b-4836d6be8950.png)
+![](https://user-images.githubusercontent.com/60814508/145575104-60796e75-e4e0-4ac7-8794-ce261c2fccfc.png)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Required Modules
+***
 
-```markdown
-Syntax highlighted code block
+This Python Project uses the following dependencies:
 
-# Header 1
-## Header 2
-### Header 3
+1. PyQty Module (PyQt5 for Python3.6)
+2. sqlite3
 
-- Bulleted
-- List
+## Features
+***
 
-1. Numbered
-2. List
+The entire program is authenticated with one Global Password - so you don't have to remember individual passwords of your accounts, just remember one - and we'll take care of the rest.
 
-**Bold** and _Italic_ and `Code` text
+## Source Code
+***
 
-[Link](url) and ![Image](src)
-```
+The entire source code of the program is stored [here](https://github.com/ankit1509/password-Management-System). Feel free to modify/reuse as you like. Make sure you credit me somewhere, though.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Contribution
+***
 
-### Jekyll Themes
+Everyone is welcome to contribute to this project and build more functionality into it. Make a fork, improve/fix it and create a pull request. I'd love it! :) Also, I'll be mentioning your names over here!
+***
+***
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ankit1509/password-Management-System/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## -By Dev [Ankit Choudhary](https://github.com/ankit1509)
